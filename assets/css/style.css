@@ -992,15 +992,15 @@ html {
 
 @media (max-width: 768px) {
   .header .group-top {
-      padding: 1.5rem 1.5rem 6rem;
+    padding: 2.4rem;
   }
 }
 
 .header .group-top .btn-menu {
   font-family: "DegularDisplay", sans-serif;
   font-weight: 600;
-  font-size: .875rem;
-  line-height: 1.28;
+  font-size: 1.6rem;
+  line-height: 1.6;
   letter-spacing: .06em;
   display: none;
 }
@@ -1011,17 +1011,17 @@ html {
 
 @media (max-width: 768px) {
   .header .group-top .btn-menu {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-  }
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
 
   .header .group-top .btn-menu.on .menu {
-      display: none;
+    display: none;
   }
 
   .header .group-top .btn-menu.on .close {
-      display: block;
+    display: block;
   }
 }
 
@@ -1112,7 +1112,7 @@ html {
   font-family: "Boogy Brut Poster", serif;
   font-weight: 400;
   font-size: 1.5rem;
-  line-height: 1.04;
+  line-height: 1.5;
   letter-spacing: .02em;
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
@@ -1140,15 +1140,15 @@ html {
   font-family: "DegularDisplay", sans-serif;
   font-weight: 600;
   letter-spacing: .06em;
-  font-size: .875rem;
-  line-height: 1.28;
+  font-size: 1.4rem;
+  line-height: 1.4;
 }
 
 /* Logo Styles */
 .logo a {
   font-style: italic;
-  font-size: 1.125rem;
-  line-height: 1.33;
+  font-size: 1.8em;
+  line-height: 1.8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1156,8 +1156,8 @@ html {
 
 @media (max-width: 1024px) {
   .logo a {
-      font-size: 1rem;
-      line-height: 1.375;
+    font-size: 1.6rem;
+    line-height: 1.6;
   }
 }
 
@@ -1331,15 +1331,15 @@ html {
   gap: 3rem;
   font-family: "DegularDisplay";
   font-weight: 600;
-  font-size: 1rem;
-  line-height: 1.25;
+  font-size: 1.6rem;
+  line-height: 1.6;
   letter-spacing: .06em;
 }
 
 @media (max-width: 1024px) {
   .gnb .gnb-list {
-      font-size: .875rem;
-      line-height: 1.28;
+      font-size: 1.6rem;
+      line-height: 1.6;
       gap: 2rem;
   }
 }
@@ -1394,7 +1394,7 @@ html {
   font-family: "DegularDisplay", sans-serif;
   display: block;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 2rem;
   line-height: 1.5;
   letter-spacing: .02em;
   padding: .75rem 1.5rem .75rem 3rem;
@@ -1404,7 +1404,7 @@ html {
 @media (max-width: 1024px) {
   .footer .group-bottom .footer-list .footer-item h2,
   .footer .group-bottom .footer-list .footer-item a {
-      font-size: .875rem;
+      font-size: 1.6rem;
       line-height: 1.57;
   }
 }
@@ -1470,21 +1470,21 @@ html {
 .footer .group-bottom .flex .sns-list .sns-item a {
   font-family: "DegularDisplay", sans-serif;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.6rem;
   line-height: 1.25;
   letter-spacing: .06em;
 }
 
 @media (max-width: 1024px) {
   .footer .group-bottom .flex .sns-list .sns-item a {
-      font-size: .875rem;
+      font-size: 1.6rem;
       line-height: 1.28;
   }
 }
 
 @media (max-width: 768px) {
   .footer .group-bottom .flex .sns-list .sns-item a {
-      font-size: .75rem;
+      font-size: 1.6rem;
   }
 }
 
@@ -1498,21 +1498,21 @@ html {
   justify-content: flex-end;
   font-family: "DegularDisplay", sans-serif;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.6rem;
   line-height: 1.25;
   letter-spacing: .06em;
 }
 
 @media (max-width: 1024px) {
   .footer .group-bottom .flex .copy {
-      font-size: .875rem;
+      font-size: 1.4rem;
       line-height: 1.28;
   }
 }
 
 @media (max-width: 768px) {
   .footer .group-bottom .flex .copy {
-      font-size: .75rem;
+      font-size: 1.2rem;
   }
 }
 
@@ -1559,7 +1559,7 @@ html {
   line-height: 1.25;
   letter-spacing: .06em;
   position: absolute;
-  font-size: 1rem;
+  font-size: 1.6rem;
   bottom: 3rem;
   left: 3rem;
   pointer-events: none;
@@ -1659,9 +1659,9 @@ html {
 
 .sc-project .group-project .sticky-project .project .container h2 {
   font-family: "DegularDisplay";
-  font-size: 1rem;
-  line-height: 1.25;
-  letter-spacing: .04em;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  letter-spacing: .15em;
   position: absolute;
   top: 3rem;
   left: 50%;
@@ -1679,27 +1679,27 @@ html {
 
 @media (max-width: 1024px) {
   .sc-project .group-project .sticky-project .project .container h2 {
-      font-size: .875rem;
-      line-height: 1.28;
+      font-size: 1.4rem;
+      line-height: 1.4;
   }
 }
 
 @media (max-width: 768px) {
   .sc-project .group-project .sticky-project .project .container h2 {
-      top: 2.5rem;
-      gap: .5rem;
+    top: 4rem;
+    gap: .8rem;
   }
 }
 
 .sc-project .group-project .sticky-project .project .container h2 em {
   border: 1px solid #fff;
-  padding: .3rem;
+  padding: .8rem;
   border-radius: 50%;
 }
 
 @media (max-width: 1024px) {
   .sc-project .group-project .sticky-project .project .container h2 em {
-      padding: .2rem;
+    padding: .6rem;
   }
 }
 
@@ -1723,11 +1723,12 @@ html {
 }
 
 .sc-project .group-project .sticky-project .project .container .flex .view {
-  padding: .375rem 1.5rem;
+  font-size: 1.8rem;
+  padding: 6rem 1rem;
   border: 1px solid;
   border-radius: 240px;
   font-family: "Boogy Brut Poster", serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: italic;
 }
 
@@ -1763,30 +1764,30 @@ html {
 
 @media (max-width: 1024px) {
   .sc-project .group-project .sticky-project .project .container h3 {
-      font-size: 2.5rem;
-      line-height: 1.05;
-      letter-spacing: .04em;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    letter-spacing: .15em;
   }
 }
 
 .sc-project .group-project .sticky-project .project .container .desc {
   font-family: "DegularDisplay";
-  font-size: 1rem;
-  line-height: 1.25;
-  letter-spacing: .04em;
+  font-size: 2rem;
+  line-height: 2;
+  letter-spacing: .15em;
 }
 
 @media (max-width: 1024px) {
   .sc-project .group-project .sticky-project .project .container .desc {
-      font-size: .875rem;
-      line-height: 1.28;
+    font-size: 1.6rem;
+    line-height: 1.6;
   }
 }
 
 /* Corner Lines */
 .sc-project .group-project .sticky-project .project .container [class*=line-] {
-  width: 5.5rem;
-  height: 5.5rem;
+  width: 8.8rem;
+  height: 8.8rem;
   position: absolute;
   opacity: .32;
   pointer-events: none;
@@ -1794,8 +1795,8 @@ html {
 
 @media (max-width: 768px) {
   .sc-project .group-project .sticky-project .project .container [class*=line-] {
-      width: 2.5rem;
-      height: 2.5rem;
+      width: 4rem;
+      height: 4rem;
   }
 }
 
@@ -1859,7 +1860,7 @@ html {
 .sc-project .group-project .sticky-project .project .container .number {
   font-family: "DegularDisplay";
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.6rem;
   line-height: 1.25;
   letter-spacing: .04em;
   position: absolute;
@@ -1868,7 +1869,7 @@ html {
 
 @media (max-width: 1024px) {
   .sc-project .group-project .sticky-project .project .container .number {
-      font-size: .875rem;
+      font-size: 1.4rem;
       line-height: 1.28;
   }
 }
@@ -1894,7 +1895,7 @@ html {
 .sc-project .group-project .sticky-project .project .container .text-wrap {
   font-family: "DegularDisplay", sans-serif;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.6rem;
   line-height: 1.25;
   letter-spacing: .06em;
   position: absolute;
@@ -1907,14 +1908,14 @@ html {
 
 @media (max-width: 1024px) {
   .sc-project .group-project .sticky-project .project .container .text-wrap {
-      font-size: .875rem;
-      line-height: 1.28;
+    font-size: 1.4rem;
+    line-height: 1.4;
   }
 }
 
 @media (max-width: 768px) {
   .sc-project .group-project .sticky-project .project .container .text-wrap {
-      bottom: 2.5rem;
+    bottom: 4rem;
   }
 }
 
@@ -2036,7 +2037,7 @@ html {
   left: 27px;
   font-family: "DegularDisplay", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.6rem;
   line-height: 1.25;
   letter-spacing: .04em;
 }
@@ -2075,15 +2076,15 @@ html {
   font-family: "DegularDisplay", sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 1rem;
-  line-height: 1.25;
+  font-size: 1.6rem;
+  line-height: 1.6;
   letter-spacing: .06em;
 }
 
 @media (max-width: 1024px) {
   .sc-about h2 {
-      font-size: .875rem;
-      line-height: 1.28;
+      font-size: 1.4rem;
+      line-height: 1.4;
   }
 }
 
@@ -2093,7 +2094,7 @@ html {
   font-weight: 400;
   font-size: 6rem;
   line-height: 1.1;
-  letter-spacing: .02em;
+  letter-spacing: .1em;
   z-index: 1;
   color: #fff;
   mix-blend-mode: difference;
@@ -2137,7 +2138,7 @@ html {
 
 @media (max-width: 480px) {
   .sc-about .group-title .title-area {
-      gap: 1rem;
+    gap: 1rem;
   }
 }
 
@@ -2147,13 +2148,13 @@ html {
 
 @media (max-width: 480px) {
   .sc-about .group-title .title-area .line.arrow {
-      display: block;
+    display: block;
   }
 }
 
 @media (max-width: 480px) {
   .sc-about .group-title .title-area .line .word.arrow {
-      display: none;
+    display: none;
   }
 }
 
@@ -2185,7 +2186,7 @@ html {
 
 @media (max-width: 480px) {
   .sc-about .group-title .title-area .orbit {
-      display: none;
+    display: none;
   }
 }
 
@@ -2204,14 +2205,14 @@ html {
 
 @media (max-width: 1024px) {
   .sc-about .sphere {
-      width: 7px;
-      height: 7px;
+    width: 7px;
+    height: 7px;
   }
 }
 
 @media (max-width: 480px) {
   .sc-about .sphere {
-      display: none;
+    display: none;
   }
 }
 
@@ -2221,6 +2222,57 @@ html {
 }
 
 /* Learn Section */
+
+.profil-wrap{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3rem;
+}
+
+
+@media (max-width: 768px) {
+  .profil-wrap{
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+}
+
+.profil{
+  display: flex;
+  gap: 5rem;
+}
+
+.profil-img {
+  /* flex: 2; */
+  min-width: 20rem;
+  max-width: 25rem;
+}
+
+@media (max-width: 768px) {
+  .profil-img {
+    min-width: 10rem;
+    max-width: 20rem;
+  }
+}
+
+.about-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.individual{
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
 .sc-learn {
   position: relative;
   background: #fff;
@@ -2229,10 +2281,14 @@ html {
 .sc-learn .group-top {
   width: 100%;
   padding: 7rem 3rem;
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
-  gap: 0 3rem;
+  gap: 0 3rem; */
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
+
 
 @media (max-width: 768px) {
   .sc-learn .group-top {
@@ -2251,40 +2307,45 @@ html {
 .sc-learn .group-top h2 {
   font-family: "DegularDisplay", sans-serif;
   font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.25;
+  font-size: 2.4rem;
+  line-height: 2.4;
   letter-spacing: .06em;
   grid-column: 1/7;
 }
 
 @media (max-width: 1024px) {
   .sc-learn .group-top h2 {
-      font-size: .875rem;
-      line-height: 1.28;
-  }
+    font-size: 2rem;
+    line-height: 2;
+}
 }
 
 .sc-learn .group-top .desc {
-  grid-column: 7/13;
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-  -webkit-column-gap: 1.5rem;
-  -moz-column-gap: 1.5rem;
-  column-gap: 1.5rem;
+  /* flex: 7; */
+  grid-column: 6/13;
+  font-size: 1.6rem;
+  max-width: 50rem;
+  line-height: 2.2;
+}
+
+.sc-learn .group-top .desc .break {
+  display: block;
+  height: 3rem;
 }
 
 @media (max-width: 1024px) {
   .sc-learn .group-top .desc {
-      font-size: .875rem;
+    font-size: 1.6rem;
   }
 }
 
 @media (max-width: 768px) {
   .sc-learn .group-top .desc {
-      -webkit-column-count: unset;
-      -moz-column-count: unset;
-      column-count: unset;
+    -webkit-column-count: unset;
+    -moz-column-count: unset;
+    column-count: unset;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -2295,7 +2356,7 @@ html {
 
 @media (max-width: 768px) {
   .sc-learn .group-bottom a {
-      pointer-events: none;
+    pointer-events: none;
   }
 }
 
@@ -2307,9 +2368,13 @@ html {
   transform: translateX(var(--name2-width));
 }
 
-.sc-learn .group-bottom a:hover .learn-item:nth-child(3) .name-box {
+/* .sc-learn .group-bottom a:hover .learn-item:nth-child(3) .name-box {
   -webkit-transform: translateX(calc(var(--name2-width) - var(--name-offset)));
   transform: translateX(calc(var(--name2-width) - var(--name-offset)));
+} */
+.sc-learn .group-bottom a:hover .learn-item:nth-child(3) .name-box {
+  -webkit-transform: translateX(var(--name2-width));
+  transform: translateX(var(--name2-width));
 }
 
 .sc-learn .group-bottom a:hover .learn-item:nth-child(2) .name-box {
@@ -2326,8 +2391,9 @@ html {
 }
 
 /* Learn List Items */
+
 .sc-learn .group-bottom .learn-list .learn-item {
-  padding: 1rem 3rem;
+  padding: 2.5rem 3rem;
   overflow: hidden;
   border-bottom: 1px solid #000;
   width: 100%;
@@ -2407,17 +2473,17 @@ html {
 
 .sc-learn .group-bottom .learn-list .learn-item .number {
   font-family: "DegularDisplay", sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.25;
-  letter-spacing: .04em;
-  padding: .75rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.25;
+  letter-spacing: .1em;
+  padding: 1.2rem;
 }
 
 @media (max-width: 1024px) {
   .sc-learn .group-bottom .learn-list .learn-item .number {
-      font-size: .875rem;
-      line-height: 1.28;
+    font-size: 1.6rem;
+    line-height: 1.8;
   }
 }
 
@@ -2441,7 +2507,7 @@ html {
   .sc-learn .group-bottom .learn-list .learn-item .name2,
   .sc-learn .group-bottom .learn-list .learn-item .name {
       font-size: 2.5rem;
-      line-height: 1.05;
+      line-height: 2;
   }
 }
 
@@ -2594,7 +2660,7 @@ html {
 .sc-career .group-top h2 {
   font-family: "DegularDisplay", sans-serif;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.6rem;
   line-height: 1.25;
   letter-spacing: .06em;
   grid-column: 1/7;
@@ -2602,7 +2668,7 @@ html {
 
 @media (max-width: 1024px) {
   .sc-career .group-top h2 {
-      font-size: .875rem;
+      font-size: 1.4rem;
       line-height: 1.28;
   }
 }
@@ -2613,7 +2679,7 @@ html {
 
 @media (max-width: 1024px) {
   .sc-career .group-top .desc-wrap {
-      font-size: .875rem;
+      font-size: 1.4rem;
   }
 }
 
@@ -2740,14 +2806,14 @@ html {
 .sc-career .study-area .text-wrap .text-box .category {
   font-family: "DegularDisplay", sans-serif;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.6rem;
   line-height: 1.25;
   letter-spacing: .06em;
 }
 
 @media (max-width: 1024px) {
   .sc-career .study-area .text-wrap .text-box .category {
-      font-size: .875rem;
+      font-size: .1em;
       line-height: 1.28;
   }
 }
@@ -2757,7 +2823,7 @@ html {
   font-weight: 400;
   font-size: 2rem;
   line-height: 1.25;
-  letter-spacing: .04em;
+  letter-spacing: .64em;
 }
 
 @media (max-width: 1024px) {
@@ -2775,7 +2841,7 @@ html {
 
 @media (max-width: 1024px) {
   .sc-career .study-area .text-wrap .desc {
-      font-size: .875rem;
+      font-size: 1.4rem;
   }
 }
 
@@ -2837,9 +2903,9 @@ html {
 .sc-project2 h2 {
   font-family: "DegularDisplay", sans-serif;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.6rem;
   line-height: 1.25;
-  letter-spacing: .06em;
+  letter-spacing: .96em;
   position: absolute;
   left: auto;
   top: calc(100vh - 4rem);
@@ -2851,7 +2917,7 @@ html {
 
 @media (max-width: 1024px) {
   .sc-project2 h2 {
-      font-size: .875rem;
+      font-size: 1.4rem;
       line-height: 1.28;
   }
 }
@@ -2907,9 +2973,9 @@ html {
 .sc-project2 .container .swiper-slide .number {
   font-family: "DegularDisplay", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.6rem;
   line-height: 1.25;
-  letter-spacing: .04em;
+  letter-spacing: .64em;
   -webkit-font-feature-settings: "tnum";
   font-feature-settings: "tnum";
   display: block;
@@ -2921,8 +2987,8 @@ html {
 
 @media (max-width: 1024px) {
   .sc-project2 .container .swiper-slide .number {
-      font-size: .875rem;
-      line-height: 1.28;
+      font-size: 1.4rem;
+      line-height: 1.6;
   }
 }
 
@@ -3062,7 +3128,7 @@ html {
   bottom: .7rem;
   right: .7rem;
   font-family: "DegularDisplay", sans-serif;
-  font-size: .7rem;
+  font-size: 1.12rem;
   line-height: 1.16;
   letter-spacing: .04em;
   color: #fff;
@@ -3171,8 +3237,8 @@ html {
   color: #fff;
   font-family: "DegularDisplay", sans-serif;
   letter-spacing: .04em;
-  font-size: .875rem;
-  line-height: 1.28;
+  font-size: 1.4rem;
+  line-height: 1.6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3183,8 +3249,8 @@ html {
 
 @media (max-width: 1024px) {
   .sc-project2 .project-slide .swiper-slide .desc-wrap .title-box {
-      font-size: .7rem;
-      line-height: 1.16;
+      font-size: 1.2rem;
+      line-height: 1.4;
       top: .8rem;
       padding: 0 .8rem;
   }
@@ -3242,14 +3308,14 @@ html {
 @media (max-width: 1024px) {
   .sc-project2 .project-slide .swiper-slide .desc-wrap .desc-box {
       padding: 0 .8rem .8rem;
-      font-size: .7rem;
-      line-height: 1.16;
+      font-size: 1.2rem;
+      line-height: 1.4;
   }
 }
 
 @media (max-width: 1024px) {
   .sc-project2 .project-slide .swiper-slide .desc-wrap .desc-box.small {
-      font-size: .6rem;
+      font-size: 1rem;
   }
 }
 
@@ -3275,7 +3341,7 @@ html {
   font-family: Boogy Brut Poster, Georgia, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 2.4rem;
   line-height: 1.16;
   letter-spacing: .04em;
   display: none;
@@ -3300,7 +3366,8 @@ html {
 
 .sc-project2 .project-slide .swiper-slide .title-mobile .desc {
   font-family: "DegularDisplay", sans-serif;
-  font-size: .7rem;
+  font-size: 1.2rem;
   line-height: 1.16;
   letter-spacing: .04em;
 }
+

@@ -15,8 +15,10 @@
     rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
   />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
   <link rel="stylesheet" href="assets/css/link.css">
+  <link rel="stylesheet" href="assets/css/common.css">
 
 
 
@@ -387,12 +389,29 @@
         </div>    
       </section>
 
-      <section class="sc-learn">
+      <section id="about" class="sc-learn">
         <div class="group-top">
-          <h2>WHAT I LEARNED</h2>
-          <p class="desc">
-            모든 프로젝트들은 웹 표준 준수를 통해 웹 컨텐츠의 구조와 레이아웃을 효과적으로 구성하였으며, 시멘틱 마크업으로 웹 접근성을 개선하였습니다. 미디어 쿼리를 사용하여 여러 디바이스에서 활용 가능한 반응형 웹사이트를 구현하였으며 실무에서 자주 사용하는 JavaScript, JQuery 문법, JavaScript 기반 플러그인 / 라이브러리(GSAP, Swiper)를 학습하여 이를 실제 프로젝트에 적용하였습니다.
-          </p>
+          <h2>ABOUT ME</h2>
+          <div class="profil-wrap">
+            <div class="profil">
+              <div class="profil-img">
+                <img src="assets/images/profileImg.png" alt="프로필사진" />
+              </div>
+              <div class="individual">
+                <p>김선아</p>
+                <p>Kim SunA</p>
+                <p>1999. 06. 03</p>
+                <p>ksa1492@naver.com</p>
+              </div>
+            </div>
+            <p class="desc">
+              시멘틱 마크업과 SCSS를 기반으로 구조적이고 일관된 웹 페이지를 설계합니다.
+              JavaScript와 jQuery를 활용해 사용자 중심의 인터랙션을 구현하고, GSAP을 통해 동적인 애니메이션 효과를 더했습니다.
+              <span class="break"></span>
+              Figma를 활용한 UI 설계와 Photoshop, Illustrator를 통한 디자인 요소 제작 경험을 바탕으로 기획부터 구현까지 폭넓게 참여해왔습니다.
+              변화하는 웹 환경 속에서도 꾸준한 학습을 통해 유연한 퍼블리셔로 성장하고자 합니다.
+            </p>
+          </div>
         </div>
         <div class="group-bottom">
           <a href="">
@@ -401,9 +420,9 @@
                 <div class="name-wrap" data-batch2="">
                   <div class="name-box">
                     <span class="number">01</span>
-                    <p class="name"><span>WEB ACCESSIBILITY</span></p>
+                    <p class="name"><span>HTML & CSS</span></p>
                   </div>
-                  <p class="name2"><span>SCSS</span></p>
+                  <p class="name2"><span>GSAP</span></p>
                 </div>
                 
               </li>
@@ -411,27 +430,27 @@
                 <div class="name-wrap" data-batch2="">
                   <div class="name-box">
                     <span class="number">02</span>
-                    <p class="name"><span>SEMANTIC MARKUP</span></p>
+                    <p class="name"><span>JavaScript</span></p>
                   </div>
-                  <p class="name2"><span>JQUERY</span></p>
+                  <p class="name2"><span>Swiper</span></p>
                 </div>
               </li>
               <li class="learn-item">
                 <div class="name-wrap" data-batch2="">
                   <div class="name-box">
                     <span class="number">03</span>
-                    <p class="name"><span>RESPONSIVE</span></p>
+                    <p class="name"><span>jQuery</span></p>
                   </div>
-                  <p class="name2"><span>ES6</span></p>
+                  <p class="name2"><span>Figma</span></p>
                 </div>
               </li>
               <li class="learn-item">
                 <div class="name-wrap" data-batch2="">
                   <div class="name-box">
                     <span class="number">04</span>
-                    <p class="name"><span>GSAP</span></p>
+                    <p class="name"><span>SCSS</span></p>
                   </div>
-                <p class="name2"><span>JAVASCRIPT</span></p>
+                <p class="name2"><span>Photoshop & Illustrator</span></p>
                 </div>
               </li>
             </ul>
@@ -440,12 +459,9 @@
       </section>
 
 
+      
 
-
-
-
-
-      <section id="" class="sc sub-project" data-autoheight="true">
+      <section id="ui/ux" class="sc sub-project" data-autoheight="true">
         <div class="sc__inner sub-project__inner">
           <h2 class="sound-only">그 외 프로젝트</h2>
           <h3 class="sc__title">UI/UX Design</h3>
@@ -519,106 +535,111 @@
         </div>
       </section>
 
-      <section id="" class="sc post" data-autoheight="true">
+      <section id="graphic" class="sc post" data-autoheight="true">
         <div class="sc__inner post__inner">
           <h2 class="sc__title">Graphic Design</h2>
-          <ul class="post__list">
-            <li class="post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic12')">
-              <div class="post__item-thumb">
-                <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="향수용어 카드뉴스" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic12.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
-              </div>
-              <div class="post__item-date">2025-04-08</div>
-              <h3 class="post__item-title">향수용어 카드뉴스</h3>
-            </a></li>
-            
-            <li class="post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic11')">
-              <div class="post__item-thumb">
-                <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="서울우유 이벤트 페이지" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic11.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
-              </div>
-              <div class="post__item-date">2025-04-08</div>
-              <h3 class="post__item-title">서울우유 이벤트 페이지</h3>
-            </a></li>
+          <div class="swiper post-swiper">
+            <ul class="swiper-wrapper post__list">
+              <li class="swiper-slide post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic12')">
+                <div class="post__item-thumb">
+                  <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="향수용어 카드뉴스" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic12.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
+                </div>
+                <div class="post__item-date">2025-04-08</div>
+                <h3 class="post__item-title">향수용어 카드뉴스</h3>
+              </a></li>
+              
+              <li class="swiper-slide post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic11')">
+                <div class="post__item-thumb">
+                  <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="서울우유 이벤트 페이지" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic11.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
+                </div>
+                <div class="post__item-date">2025-04-08</div>
+                <h3 class="post__item-title">서울우유 이벤트 페이지</h3>
+              </a></li>
 
-            <li class="post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic10')">
-              <div class="post__item-thumb">
-                <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="3service 포스터" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic10.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
-              </div>
-              <div class="post__item-date">2025-03-28</div>
-              <h3 class="post__item-title">3service 포스터</h3>
-            </a></li>
+              <li class="swiper-slide post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic10')">
+                <div class="post__item-thumb">
+                  <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="3service 포스터" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic10.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
+                </div>
+                <div class="post__item-date">2025-03-28</div>
+                <h3 class="post__item-title">3service 포스터</h3>
+              </a></li>
 
-            <li class="post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic9')">
-              <div class="post__item-thumb">
-                <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="캐논 랜딩 페이지" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic9.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
-              </div>
-              <div class="post__item-date">2025-03-28</div>
-              <h3 class="post__item-title">캐논 랜딩 페이지</h3>
-            </a></li>
+              <li class="swiper-slide post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic9')">
+                <div class="post__item-thumb">
+                  <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="캐논 랜딩 페이지" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic9.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
+                </div>
+                <div class="post__item-date">2025-03-28</div>
+                <h3 class="post__item-title">캐논 랜딩 페이지</h3>
+              </a></li>
 
-            <li class="post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic8')">
-              <div class="post__item-thumb">
-                <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="입체그림자 포스터" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic8.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
-              </div>
-              <div class="post__item-date">2025-03-28</div>
-              <h3 class="post__item-title">입체그림자 포스터</h3>
-            </a></li>
+              <li class="swiper-slide post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic8')">
+                <div class="post__item-thumb">
+                  <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="입체그림자 포스터" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic8.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
+                </div>
+                <div class="post__item-date">2025-03-28</div>
+                <h3 class="post__item-title">입체그림자 포스터</h3>
+              </a></li>
 
-            <li class="post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic7')">
-              <div class="post__item-thumb">
-                <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="웹퍼블리셔공고 팝업" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic7.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
-              </div>
-              <div class="post__item-date">2025-03-28</div>
-              <h3 class="post__item-title">웹퍼블리셔공고 팝업</h3>
-            </a></li>
+              <li class="swiper-slide post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic7')">
+                <div class="post__item-thumb">
+                  <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="웹퍼블리셔공고 팝업" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic7.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
+                </div>
+                <div class="post__item-date">2025-03-28</div>
+                <h3 class="post__item-title">웹퍼블리셔공고 팝업</h3>
+              </a></li>
 
-            <li class="post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic6')">
-              <div class="post__item-thumb">
-                <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="포인트 이벤트 팝업" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic6.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
-              </div>
-              <div class="post__item-date">2025-03-28</div>
-              <h3 class="post__item-title">포인트 이벤트 팝업</h3>
-            </a></li>
+              <li class="swiper-slide post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic6')">
+                <div class="post__item-thumb">
+                  <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="포인트 이벤트 팝업" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic6.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
+                </div>
+                <div class="post__item-date">2025-03-28</div>
+                <h3 class="post__item-title">포인트 이벤트 팝업</h3>
+              </a></li>
 
-            <li class="post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic5')">
-              <div class="post__item-thumb">
-                <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="감사의 달 이벤트 배너" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic5.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
-              </div>
-              <div class="post__item-date">2025-03-28</div>
-              <h3 class="post__item-title">감사의 달 이벤트 배너</h3>
-            </a></li>
+              <li class="swiper-slide post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic5')">
+                <div class="post__item-thumb">
+                  <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="감사의 달 이벤트 배너" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic5.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
+                </div>
+                <div class="post__item-date">2025-03-28</div>
+                <h3 class="post__item-title">감사의 달 이벤트 배너</h3>
+              </a></li>
 
-            <li class="post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic4')">
-              <div class="post__item-thumb">
-                <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="스타벅스 이벤트 배너" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic4.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
-              </div>
-              <div class="post__item-date">2025-03-28</div>
-              <h3 class="post__item-title">스타벅스 이벤트 배너</h3>
-            </a></li>
+              <li class="swiper-slide post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic4')">
+                <div class="post__item-thumb">
+                  <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="스타벅스 이벤트 배너" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic4.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
+                </div>
+                <div class="post__item-date">2025-03-28</div>
+                <h3 class="post__item-title">스타벅스 이벤트 배너</h3>
+              </a></li>
 
-            <li class="post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic3')">
-              <div class="post__item-thumb">
-                <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="3service 포스터" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic3.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
-              </div>
-              <div class="post__item-date">2025-03-28</div>
-              <h3 class="post__item-title">냄비 배너</h3>
-            </a></li>
+              <li class="swiper-slide post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic3')">
+                <div class="post__item-thumb">
+                  <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="3service 포스터" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic3.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
+                </div>
+                <div class="post__item-date">2025-03-28</div>
+                <h3 class="post__item-title">냄비 배너</h3>
+              </a></li>
 
-            <li class="post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic2')">
-              <div class="post__item-thumb">
-                <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="성 그래픽디자인" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic2.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
-              </div>
-              <div class="post__item-date">2025-03-28</div>
-              <h3 class="post__item-title">성 그래픽디자인</h3>
-            </a></li>
+              <li class="swiper-slide post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic2')">
+                <div class="post__item-thumb">
+                  <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="성 그래픽디자인" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic2.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
+                </div>
+                <div class="post__item-date">2025-03-28</div>
+                <h3 class="post__item-title">성 그래픽디자인</h3>
+              </a></li>
 
-            <li class="post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic1')">
-              <div class="post__item-thumb">
-                <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="다이어리" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic1.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
-              </div>
-              <div class="post__item-date">2025-03-28</div>
-              <h3 class="post__item-title">다이어리</h3>
-            </a></li>
-          </ul>
+              <li class="swiper-slide post__item"><a class="post__item-link" href="#none" onclick="openModal('graphic1')">
+                <div class="post__item-thumb">
+                  <div class="post__item-thumb-inner" style="filter: blur(0rem) brightness(1); transform: none;"><img alt="다이어리" loading="lazy" decoding="async" data-nimg="fill" sizes="(max-width: 768px) 90vw, 32vw" srcset="assets/images/mockup/graphic1.jpg" style="position: absolute; height: 100%; width: 100%; inset: 0px;"></div>
+                </div>
+                <div class="post__item-date">2025-03-28</div>
+                <h3 class="post__item-title">다이어리</h3>
+              </a></li>
+            </ul>
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+            <div class="swiper-pagination"></div>
+          </div>
         </div>
       </section>
 
@@ -887,7 +908,7 @@
       </div>
     </footer>
 
-    <div class="preloader">
+    <!-- <div class="preloader">
       <div class="logo">
         <a href="" class="link-logo">
           2025 /
@@ -897,7 +918,7 @@
           </div>
         </a>
       </div>
-    </div>
+    </div> -->
   </div>
 
 
@@ -909,6 +930,7 @@
   <script src="assets/js/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js"></script>
   <script src="assets/js/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
   <script src="assets/js/gh/studio-freight/lenis%401.0.27/bundled/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   
 
   <script src="assets/js/jquery-3.6.0.min.js"></script>

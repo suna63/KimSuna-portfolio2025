@@ -1,15 +1,18 @@
-// Lenis 스크롤 초기화
-const lenis = new Lenis();
+// // Lenis 스크롤 초기화
+// const lenis = new Lenis();
 
-// Lenis 스크롤 이벤트와 ScrollTrigger 연동
-lenis.on('scroll', ScrollTrigger.update);
+// // Lenis 스크롤 이벤트와 ScrollTrigger 연동
+// lenis.on('scroll', ScrollTrigger.update);
 
-// GSAP ticker로 Lenis 애니메이션 프레임 업데이트
-gsap.ticker.add(time => {
-  lenis.raf(time * 1000);
-});
+// // GSAP ticker로 Lenis 애니메이션 프레임 업데이트
+// gsap.ticker.add(time => {
+//   lenis.raf(time * 1000);
+// });
 
 // GSAP lag smoothing 비활성화
+
+
+
 gsap.ticker.lagSmoothing(0);
 
 // 윈도우 로드 시 body에 'loaded' 클래스 추가

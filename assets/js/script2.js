@@ -114,3 +114,27 @@ document.addEventListener(
   },
   { passive: false }
 );
+
+
+
+
+
+// 스와이프
+const postSwiper = new Swiper('.post-swiper', {
+  slidesPerView: 3,
+  spaceBetween: 24,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true
+  },
+  loop: true,
+  breakpoints: {
+    1024: { slidesPerView: 3 },
+    768: { slidesPerView: 2 },
+    0: { slidesPerView: 1 }
+  }
+});

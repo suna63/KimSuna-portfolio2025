@@ -1,15 +1,11 @@
-/* html{
-  font-size: 62.5%;
-} */
-
 /* ==========scrollTop_btn========== */
 .scrollTop_btn{
   position: fixed;
   z-index: 5;
   bottom: 2rem;
   right: 2rem;
-  width: 3rem;
-  height: 3rem;
+  width: 4.5rem;
+  height: 4.5rem;
   background: #fff url(/assets/images/logo-suna.png) no-repeat center;
   background-size: contain;
   text-indent: -9999px;
@@ -274,30 +270,30 @@ body.modal-open {
 .sub-project {
   background-color: rgb(15, 15, 15);
   color: #fff;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 @media (max-width: 990px) {
     .sub-project {
-        padding-top: 0;
+      padding-top: 0;
     }
 }
 
 .sub-project .sc__title {
-    font-size: clamp(4rem, 4.16vw, 8rem);
+  font-size: clamp(2rem, 4.16vw, 4rem);
 }
 
 .sub-project__item {
-    position: relative;
+  position: relative;
 }
 
 .sub-project__item a {
     display: grid;
     grid-template-columns: 10fr 20fr 40fr;
     width: 100%;
-    padding-top: clamp(3.2rem, 5vw, 6rem);
-    padding-bottom: clamp(3.2rem, 5vw, 6rem);
+    padding-top: clamp(2.2rem, 2.5vw, 3rem);
+    padding-bottom: clamp(2.2rem, 2.5vw, 3rem);
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -337,58 +333,60 @@ body.modal-open {
 }
 
 .sub-project__item-num {
-    font-size: clamp(1.6rem, 1.2vw, 2.4rem);
+    font-size: clamp(1.6rem, 2.2vw, 2.4rem);
     line-height: 2.4;
 }
 
 .sub-project__item-title {
-    font-size: clamp(3.2rem, 3.2vw, 4rem);
+    font-size: clamp(2.2rem, 3.2vw, 4rem);
     font-weight: 500;
     word-break: break-all;
 }
 
 @media (max-width: 990px) {
-    .sub-project__item-title {
-        font-size: clamp(2rem, 6.4vw, 4rem);
-    }
+  .sub-project__item-title {
+    font-size: clamp(2rem, 6.4vw, 4rem);
+  }
 }
 
 .sub-project__item-text-container {
-    font-size: clamp(1.6rem, 1.2vw, 2.4rem);
+  font-size: clamp(1.6rem, 1.8vw, 2rem);
 }
 
 @media (max-width: 990px) {
     .sub-project__item-text-container {
-        font-size: clamp(1.4rem, 2vw, 2rem);
+        font-size: clamp(1.4rem, 2.4vw, 2rem);
     }
 }
 
 .sub-project__item-desc {
     width: 70%;
+    font-size: clamp(2rem, 2vw, 2rem);
 }
 
 @media (max-width: 990px) {
     .sub-project__item-desc {
-        margin-top: .8rem;
+        margin-top: 2rem;
         width: 100%;
+        font-size: 2rem;
     }
 }
 
 .sub-project__tag {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: .8em;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-size: .8em;
-    opacity: .5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5em;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 1.2em;
+  opacity: .5;
 }
 
 @media (max-width: 990px) {
-    .sub-project__tag {
-        margin-top: .8rem;
-    }
+  .sub-project__tag {
+    margin-top: 1.4rem;
+  }
 }
 
 /* Utility Classes (관련 부분만) */
@@ -479,12 +477,23 @@ body.modal-open {
 
 @media (max-width: 768px) {
     .sc__title {
-        font-size: clamp(2.4rem, 6.4vw, 3.2rem);
+        font-size: clamp(2.4rem, 4.4vw, 3.2rem);
         margin-bottom: 1.4vw;
     }
 }
 
 /* Post */
+.post-swiper{
+  padding: 60px 0;
+}
+
+@media (max-width: 768px) {
+  .post__list {
+      /* display: flex;
+      flex-direction: row; */
+  }
+}
+
 .post__list {
     display: flex;
     justify-content: space-between;
@@ -494,17 +503,23 @@ body.modal-open {
 }
 
 @media (max-width: 768px) {
-    .post__list {
-        display: flex;
-        justify-content: stretch;
-        align-items: stretch;
-        gap: 2.4rem;
-        flex-direction: column;
-    }
+  .post__list {
+      display: flex;
+      justify-content: stretch;
+      align-items: stretch;
+      gap: 2.4rem;
+      /* flex-direction: column; */
+  }
 }
 
 .post__item {
-    flex: 1 0;
+    /* flex: 1 0; */
+}
+
+@media (max-width: 768px) {
+  .post__item {
+    width: 6rem;
+  }
 }
 
 .post__item-thumb {
@@ -522,6 +537,7 @@ body.modal-open {
 .post__item-thumb img {
     position: absolute;
     object-fit: cover;
+    transition: transform 0.3s ease;
 }
 
 .post__item-thumb:after {
@@ -530,8 +546,14 @@ body.modal-open {
     padding-bottom: 57.239%;
 }
 
+/* #graphic 섹션의 post__item 호버 효과 */
+#graphic .post__item:hover .post__item-thumb img {
+    transform: scale(1.05);
+}
+
 .post__item-title {
-    font-size: clamp(2rem, 1.66vw, 4rem);
+    font-size: clamp(1.4rem, 1.4vw, 2.4rem);
+    /* font-size: 2rem; */
     font-weight: 400;
     line-height: 1.2;
     overflow: hidden;
@@ -543,12 +565,12 @@ body.modal-open {
 
 @media (max-width: 768px) {
     .post__item-title {
-        font-size: 1.6rem;
+      font-size: clamp(1.2rem, 3.4vw, 4rem);
     }
 }
 
 .post__item-date {
-    font-size: clamp(1.6rem, .9375vw, 2.4rem);
+    font-size: clamp(1rem, 2vw, 2.4rem);
     padding: .625vw 0;
     margin-top: .5vw;
     opacity: .4;
@@ -562,4 +584,34 @@ body.modal-open {
         padding-bottom: .4rem;
         margin-top: .4rem;
     }
+}
+
+/* post-swiper 네비게이션(화살표) 흰색 */
+#graphic .post-swiper {
+  position: relative;
+  overflow: hidden; /* 기존대로 유지 */
+}
+
+.post-swiper .swiper-button-next,
+.post-swiper .swiper-button-prev {
+  color: #fff;
+  fill: #fff;
+}
+
+/* post-swiper 페이지네이션(bullet) 흰색 */
+.post-swiper .swiper-pagination-bullet {
+  background: #fff;
+  opacity: 0.5;
+}
+.post-swiper .swiper-pagination-bullet-active {
+  background: #fff;
+  opacity: 1;
+}
+@media (max-width: 768px) {
+  .post-swiper .swiper-button-prev{
+    left: 0;
+  }
+  .post-swiper .swiper-button-next {
+    right: 0;
+  }
 }
