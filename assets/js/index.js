@@ -55,6 +55,18 @@ $('.gnb .gnb-list .gnb-item .link-about').click(function(e) {
   });
 });
 
+// project 링크 클릭 이벤트
+$('.gnb .gnb-list .gnb-item .link-project').click(function(e) {
+  e.preventDefault();
+  gsap.to(window, {
+    duration: 2,
+    scrollTo: {
+      y: '#ui\\/ux'
+    },
+    ease: 'power3.out'
+  });
+});
+
 // Contact 링크 클릭 이벤트  
 $('.gnb .gnb-list .gnb-item .link-contact').click(function(e) {
   e.preventDefault();
@@ -253,4 +265,15 @@ ScrollTrigger.batch('[data-batch]', {
   onEnter: function(elements) {
     $(elements).addClass('on');
   }
+});
+
+$('.gnb .gnb-list .gnb-item .link-project').click(function(e) {
+  e.preventDefault();
+  gsap.to(window, {
+    duration: 2,
+    scrollTo: {
+      y: '#ui\\/ux'
+    },
+    ease: 'power3.out'
+  });
 });

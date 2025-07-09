@@ -957,9 +957,11 @@ html {
 .headline {
   font-family: "Boogy Brut Poster", serif;
   font-weight: 400;
-  font-size: 5rem;
+  font-size: 6rem;
   line-height: 1.1;
   letter-spacing: .04em;
+  word-break: keep-all;
+  white-space: normal;
 }
 
 .hidden {
@@ -1000,7 +1002,7 @@ html {
   font-family: "DegularDisplay", sans-serif;
   font-weight: 600;
   font-size: 1.6rem;
-  line-height: 1.6;
+  line-height: 2;
   letter-spacing: .06em;
   display: none;
 }
@@ -1110,10 +1112,10 @@ html {
 
 .header .group-mobile .gnb-list .gnb-item a {
   font-family: "Boogy Brut Poster", serif;
-  font-weight: 400;
-  font-size: 1.5rem;
+  font-weight: 600;
+  font-size: 2rem;
   line-height: 1.5;
-  letter-spacing: .02em;
+  letter-spacing: .1em;
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
   -webkit-clip-path: inset(0 0 100% 0);
@@ -1156,7 +1158,7 @@ html {
 
 @media (max-width: 1024px) {
   .logo a {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 1.6;
   }
 }
@@ -1752,6 +1754,7 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 3rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -1773,7 +1776,7 @@ html {
 .sc-project .group-project .sticky-project .project .container .desc {
   font-family: "DegularDisplay";
   font-size: 2rem;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: .15em;
 }
 
@@ -2009,7 +2012,7 @@ html {
   -ms-flex-align: center;
   align-items: center;
   color: #fff;
-  mix-blend-mode: difference;
+  /* mix-blend-mode: difference; */
   opacity: 0;
   -webkit-transition: opacity .4s cubic-bezier(0.37, 0, 0.63, 1);
   transition: opacity .4s cubic-bezier(0.37, 0, 0.63, 1);
@@ -2227,7 +2230,7 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 3rem;
+  gap: 5rem;
 }
 
 
@@ -2235,13 +2238,19 @@ html {
   .profil-wrap{
     flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    gap: 5rem;
   }
 }
 
 .profil{
   display: flex;
   gap: 5rem;
+}
+
+@media (max-width: 768px) {
+  .profil{
+    gap: 2rem;
+  }
 }
 
 .profil-img {
@@ -2266,12 +2275,25 @@ html {
 }
 
 .individual{
+  font-family: "DegularDisplay", sans-serif;
   font-size: 2rem;
+  letter-spacing: 0.1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+@media (max-width: 1024px) {
+  .individual{
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .individual{
+    font-size: 1.7rem;
+  }
+}
 
 .sc-learn {
   position: relative;
@@ -2309,7 +2331,7 @@ html {
   font-weight: 700;
   font-size: 2.4rem;
   line-height: 2.4;
-  letter-spacing: .06em;
+  letter-spacing: .1em;
   grid-column: 1/7;
 }
 
@@ -2321,6 +2343,7 @@ html {
 }
 
 .sc-learn .group-top .desc {
+  font-family: "DegularDisplay", sans-serif;
   /* flex: 7; */
   grid-column: 6/13;
   font-size: 1.6rem;
@@ -2330,7 +2353,19 @@ html {
 
 .sc-learn .group-top .desc .break {
   display: block;
-  height: 3rem;
+  height: 5rem;
+}
+
+@media (max-width: 1024px) {
+  .sc-learn .group-top .desc .break {
+    height: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .sc-learn .group-top .desc .break {
+    height: 1rem;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -2506,16 +2541,16 @@ html {
 @media (max-width: 1024px) {
   .sc-learn .group-bottom .learn-list .learn-item .name2,
   .sc-learn .group-bottom .learn-list .learn-item .name {
-      font-size: 2.5rem;
-      line-height: 2;
+      font-size: 4.5rem;
+      line-height: 1;
   }
 }
 
 @media (max-width: 768px) {
   .sc-learn .group-bottom .learn-list .learn-item .name2,
   .sc-learn .group-bottom .learn-list .learn-item .name {
-      font-size: 2rem;
-      line-height: 1.125;
+      font-size: 2.5rem;
+      line-height: 2;
   }
 
   .sc-learn .group-bottom .learn-list .learn-item .name2 span,

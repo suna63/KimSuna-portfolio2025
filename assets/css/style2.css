@@ -281,7 +281,7 @@ body.modal-open {
 }
 
 .sub-project .sc__title {
-  font-size: clamp(2rem, 4.16vw, 4rem);
+  font-size: clamp(2rem, 6vw, 4rem);
 }
 
 .sub-project__item {
@@ -338,7 +338,7 @@ body.modal-open {
 }
 
 .sub-project__item-title {
-    font-size: clamp(2.2rem, 3.2vw, 4rem);
+    font-size: clamp(2.2rem, 3vw, 4rem);
     font-weight: 500;
     word-break: break-all;
 }
@@ -477,7 +477,7 @@ body.modal-open {
 
 @media (max-width: 768px) {
     .sc__title {
-        font-size: clamp(2.4rem, 4.4vw, 3.2rem);
+        font-size: clamp(2.4rem, 6vw, 3.2rem);
         margin-bottom: 1.4vw;
     }
 }
@@ -548,41 +548,41 @@ body.modal-open {
 
 /* #graphic 섹션의 post__item 호버 효과 */
 #graphic .post__item:hover .post__item-thumb img {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .post__item-title {
-    font-size: clamp(1.4rem, 1.4vw, 2.4rem);
-    /* font-size: 2rem; */
-    font-weight: 400;
-    line-height: 1.2;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
+  font-size: clamp(2.2rem, 2vw, 2.4rem);
+  /* font-size: 2rem; */
+  font-weight: 400;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 @media (max-width: 768px) {
     .post__item-title {
-      font-size: clamp(1.2rem, 3.4vw, 4rem);
+      font-size: clamp(1.8rem, 2vw, 2.4rem);
     }
 }
 
 .post__item-date {
-    font-size: clamp(1rem, 2vw, 2.4rem);
-    padding: .625vw 0;
-    margin-top: .5vw;
-    opacity: .4;
-    line-height: 1;
+  font-size: clamp(1.6rem, 1.6vw, 1.8rem);
+  padding: 1vw 0;
+  margin-top: 1vw;
+  opacity: .4;
+  line-height: 1;
 }
 
 @media (max-width: 768px) {
     .post__item-date {
-        font-size: 1.4rem;
-        padding-top: .6rem;
-        padding-bottom: .4rem;
-        margin-top: .4rem;
+      font-size: clamp(1.3rem, 1.6vw, 1.6rem);
+      padding-top: .8rem;
+      padding-bottom: .6rem;
+      margin-top: .6rem;
     }
 }
 
