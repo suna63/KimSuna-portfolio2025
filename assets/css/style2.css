@@ -74,7 +74,7 @@
 }
 .main-visual .group-row .left { text-align: left; }
 .main-visual .group-row .left p {
-  font-size: 15vh;
+  font-size: 12vh;
   margin: 0 20px;
   z-index: 101;
 }
@@ -83,7 +83,7 @@
 }
 .main-visual .group-row .right { justify-content: flex-end; }
 .main-visual .group-row .right p {
-  font-size: 15vh;
+  font-size: 12vh;
   margin: 0 20px;
   z-index: 101;
 }
