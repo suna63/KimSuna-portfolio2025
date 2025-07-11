@@ -80,37 +80,32 @@ $('.gnb .gnb-list .gnb-item .link-contact').click(function(e) {
 });
 
 // 모바일 메뉴 About 링크 클릭
-$('.header .group-mobile .gnb-list .gnb-item .link-about').click(function(e) {
+$('.header .group-mobile .gnb-list .gnb-item .link-about').off('click').on('click', function(e) {
   e.preventDefault();
   $('.header .group-mobile').removeClass('on');
   $('body').removeClass('hidden');
   $('.header .group-top .btn-menu').removeClass('on');
-  lenis.start();
-  
-  gsap.to(window, {
-    duration: 2,
-    scrollTo: {
-      y: '#about'
-    },
-    ease: 'power3.out'
-  });
+  document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });
+});
+
+// 모바일 메뉴 Project 링크 클릭
+$('.header .group-mobile .gnb-list .gnb-item .link-project').off('click').on('click', function(e) {
+  e.preventDefault();
+  $('.header .group-mobile').removeClass('on');
+  $('body').removeClass('hidden');
+  $('.header .group-top .btn-menu').removeClass('on');
+  // id에 슬래시가 있으므로 getElementById 사용
+  var el = document.getElementById('ui/ux') || document.querySelector('#ui\\/ux');
+  if (el) el.scrollIntoView({ behavior: 'smooth' });
 });
 
 // 모바일 메뉴 Contact 링크 클릭
-$('.header .group-mobile .gnb-list .gnb-item .link-contact').click(function(e) {
+$('.header .group-mobile .gnb-list .gnb-item .link-contact').off('click').on('click', function(e) {
   e.preventDefault();
   $('.header .group-mobile').removeClass('on');
   $('body').removeClass('hidden');
   $('.header .group-top .btn-menu').removeClass('on');
-  lenis.start();
-  
-  gsap.to(window, {
-    duration: 2,
-    scrollTo: {
-      y: '#footer'
-    },
-    ease: 'power3.out'
-  });
+  document.querySelector('#footer').scrollIntoView({ behavior: 'smooth' });
 });
 
 // 프로젝트 타임라인 애니메이션
