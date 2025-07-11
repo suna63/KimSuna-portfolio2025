@@ -6,6 +6,12 @@
     font-style: normal;
 }
 
+@font-face {
+  font-family: "PP Neue Montreal";
+  src: url(../fonts/PPNeueMontreal-Regular.woff2) format("woff2");
+  font-weight: 400;
+}
+
 /* CSS Variables */
 :root {
   --swiper-theme-color: #007aff;
@@ -1150,6 +1156,7 @@ html {
 .logo a {
   font-style: italic;
   font-size: 1.8em;
+  font-weight: 600;
   line-height: 1.8;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1561,7 +1568,7 @@ html {
   line-height: 1.25;
   letter-spacing: .06em;
   position: absolute;
-  font-size: 1.6rem;
+  font-size: 2rem;
   bottom: 3rem;
   left: 3rem;
   pointer-events: none;
@@ -1575,20 +1582,21 @@ html {
   width: calc(100% - 6rem);
   -webkit-transform: translateY(50%);
   transform: translateY(50%);
+  z-index: 30;
 }
 
 @media (max-width: 1024px) {
   .sc-project .group-intro .sticky-intro .container .text-wrap {
-      font-size: .875rem;
-      line-height: 1.28;
+    font-size: 1.6rem;
+    line-height: 1.28;
   }
 }
 
 @media (max-width: 768px) {
   .sc-project .group-intro .sticky-intro .container .text-wrap {
-      left: 1.5rem;
-      bottom: 2.5rem;
-      width: calc(100% - 3rem);
+    left: 1.5rem;
+    bottom: 2.5rem;
+    width: calc(100% - 3rem);
   }
 }
 
