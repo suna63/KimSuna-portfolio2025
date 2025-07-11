@@ -97,7 +97,7 @@
   z-index: 11;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .main-visual .group-row .left p,
   .main-visual .group-row .right p {
     font-size: 8vh;
