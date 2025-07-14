@@ -1,0 +1,176 @@
+Uri: https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\gh\studio-freight\lenis@1.0.27\bundled\lenis.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\ajax\libs\gsap\3.12.2\gsap.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\ajax\libs\gsap\3.12.2\MotionPathPlugin.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\ajax\libs\gsap\3.12.2\ScrollToPlugin.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\ajax\libs\gsap\3.12.2\ScrollTrigger.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.js
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\ajax\libs\Swiper\7.4.1\swiper-bundle.min.js
+Content Type: application/javascript
+
+Uri: https://code.jquery.com/jquery-3.6.0.min.js
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\jquery-3.6.0.min.js
+Content Type: application/javascript
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023/
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\index.htm
+Content Type: text/html
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/css/style.css
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\css\style.css
+Content Type: text/css
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/fonts/Boogy_Brut_Poster_WEB-Black_Italic.woff
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\fonts\Boogy_Brut_Poster_WEB-Black_Italic.woff
+Content Type: font/woff
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/fonts/Boogy_Brut_Poster_WEB-White.woff
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\fonts\Boogy_Brut_Poster_WEB-White.woff
+Content Type: font/woff
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/fonts/Boogy_Brut_WEBL-Book_Italic.woff
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\fonts\Boogy_Brut_WEBL-Book_Italic.woff
+Content Type: font/woff
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/fonts/Cormorant-Garamond-Regular-Italic.woff
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\fonts\Cormorant-Garamond-Regular-Italic.woff
+Content Type: font/woff
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/fonts/Cormorant-Garamond-Regular.woff
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\fonts\Cormorant-Garamond-Regular.woff
+Content Type: font/woff
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/fonts/DegularDisplay-Bold.woff
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\fonts\DegularDisplay-Bold.woff
+Content Type: font/woff
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/fonts/DegularDisplay-Regular.woff
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\fonts\DegularDisplay-Regular.woff
+Content Type: font/woff
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/fonts/PretendardVariable.woff2
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\fonts\PretendardVariable.woff2
+Content Type: font/woff2
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/fonts/SourceHanSerifKR-Regular.woff
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\fonts\SourceHanSerifKR-Regular.woff
+Content Type: font/woff
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/images/40wonders-mockup.png
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\images\40wonders-mockup.png
+Content Type: image/png
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/images/andar-thumbnail.jpeg
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\images\andar-thumbnail.jpeg
+Content Type: image/jpeg
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/images/enterpriseblockchain-thumbnail.jpeg
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\images\enterpriseblockchain-thumbnail.jpeg
+Content Type: image/jpeg
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/images/eql-thumbnail.jpeg
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\images\eql-thumbnail.jpeg
+Content Type: image/jpeg
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/images/favicon.png
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\images\favicon.png
+Content Type: image/png
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/images/footer-thumbnail.jpeg
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\images\footer-thumbnail.jpeg
+Content Type: image/jpeg
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/images/intro-thumbnail.jpeg
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\images\intro-thumbnail.jpeg
+Content Type: image/jpeg
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/images/mobile-thumbnail.jpeg
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\images\mobile-thumbnail.jpeg
+Content Type: image/jpeg
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/images/naver-thumbnail.jpeg
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\images\naver-thumbnail.jpeg
+Content Type: image/jpeg
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/images/react.jpeg
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\images\react.jpeg
+Content Type: image/jpeg
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/images/seoul-mockup.png
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\images\seoul-mockup.png
+Content Type: image/png
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/images/typescript.png
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\images\typescript.png
+Content Type: image/png
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/images/vanilla-js.png
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\images\vanilla-js.png
+Content Type: image/png
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/images/xexymix-thumbnail.jpeg
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\images\xexymix-thumbnail.jpeg
+Content Type: image/jpeg
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/js/index.js
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\js\index.js
+Content Type: application/javascript
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/js/project.js
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\js\project.js
+Content Type: application/javascript
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/videos/andar.mp4
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\videos\andar.mp4
+Content Type: video/mp4
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/videos/enterpriseblockchain.mp4
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\videos\enterpriseblockchain.mp4
+Content Type: video/mp4
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/videos/eql.mp4
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\videos\eql.mp4
+Content Type: video/mp4
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/videos/footer-visual.mp4
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\videos\footer-visual.mp4
+Content Type: video/mp4
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/videos/intro.mp4
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\videos\intro.mp4
+Content Type: video/mp4
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/videos/mobile-visual.mp4
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\videos\mobile-visual.mp4
+Content Type: video/mp4
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/videos/naver.mp4
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\videos\naver.mp4
+Content Type: video/mp4
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023assets/videos/xexymix.mp4
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\assets\videos\xexymix.mp4
+Content Type: video/mp4
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023/index.html
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\index.html
+Content Type: text/html
+
+Uri: https://tjeodnjsdlwl.github.io/sw2023/project.html
+File Name: C:\Downloaded Web Sites\tjeodnjsdlwl.github.io\sw2023\project.html
+Content Type: text/html
+
